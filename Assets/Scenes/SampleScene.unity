@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 153149183}
   - component: {fileID: 153149185}
   - component: {fileID: 153149186}
+  - component: {fileID: 153149187}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -499,13 +500,30 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153149182}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc9582b54c060494c8d968e27e5f6037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterCamera: {fileID: 963194227}
   slot: {fileID: 47982464}
+--- !u!114 &153149187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153149182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d4f7bbe7dd65b49a75dadf9210694c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraPos: {fileID: 973723136}
+  GameObject: {fileID: 1726714041}
+  pickUpLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &188308879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2800250516343163423, guid: 41d66d7c75beeba4e83b9ccbe9b18e1e, type: 3}
